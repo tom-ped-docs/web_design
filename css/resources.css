@@ -1,0 +1,102 @@
+/* Dawn of War https://www.dawnofwar.com/ */
+
+.dow-btn {
+  color: #0b0b0d;
+  background-color: #bea87e;
+}
+
+.dow-btn:hover {
+  color: #f2eee5;
+  background-color: #0b0b0d;
+}
+
+::selection {
+  color: #b32b15;
+  background-color: #b32b15;
+}
+
+/* Slack https://slack.com/ */
+
+.expensive-0 { background-color: #1A1D21; }
+.expensive-1 { background-color: #232527; }
+.expensive-2 { background-color: #3E4232; }
+.expensive-3 { background-color: #C9C49C; }
+/* .expensive-4 { background-color: #232527; } */
+/* .expensive-5 { background-color: #C9C49C; } */
+/* .expensive-6 { background-color: #C9C49C; } */
+.expensive-7 { background-color: #3E4233; }
+/* .expensive-8 { background-color: #C9C49C; } */
+/* .expensive-9 { background-color: #1A1D21; } */
+
+.terminal-0 { background-color: #1A1D21; }
+.terminal-1 { background-color: #1A2B23; }
+.terminal-2 { background-color: #4EE077; }
+/* .terminal-3 { background-color: #1A1D21; } */
+/* .terminal-4 { background-color: #1A2B23; } */
+/* .terminal-5 { background-color: #4EE077; } */
+/* .terminal-6 { background-color: #4EE077; } */
+.terminal-7 { background-color: #1C913D; }
+/* .terminal-8 { background-color: #1A2B23; } */
+/* .terminal-9 { background-color: #4EE077; } */
+
+/* CSS-Tricks / ... https://css-tricks.com/examples/WebKitScrollbars */
+
+html {
+  overflow: auto;
+}
+
+body {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+  padding: 8px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* edge://settings/ */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8d8d8d;/* light */
+  /* background: #7d7d7d; *//* dark */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-corner {
+  background: none;
+}
+
+/* switch themes */
+
+.form-check {
+  padding-left: 0;
+  margin-bottom: 0;
+  min-height: 0;
+}
+
+.form-check .form-check-input {
+  margin-left: 0;
+}
+
+.form-check-input {
+  margin-top: 0;
+}
+
+.form-switch {
+  padding-left: 0;
+}
+
+.form-switch .form-check-input {
+  margin-left: 0;
+}

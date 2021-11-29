@@ -1,0 +1,41 @@
+.bbr {
+  border: 1px solid #dee2e6 !important;
+  border-radius: 0.25rem /*!important*/;
+}
+
+.mbmtplpt {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.dfdfw {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+
+.hmbmrw {
+  height: 5rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 5rem;
+}
+
+.dmb {
+  display: block !important;
+  margin-bottom: 1rem;
+}
+
+.hw {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.aidfdjc {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
