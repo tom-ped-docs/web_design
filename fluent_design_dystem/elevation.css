@@ -1,0 +1,109 @@
+/*
+ * ------------------------- Elevation -------------------------
+ */
+
+.light.base,
+.light .base {
+  background-color: rgba(249, 249, 249, 1);
+}
+
+.light.layer,
+.light .layer {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.dark.base,
+.dark .base {
+  background-color: rgba(40, 40, 40, 1);
+}
+
+.dark.layer,
+.dark .layer {
+  background-color: rgba(44, 44, 44, 1);
+}
+
+/* ------------------------- Shadows ------------------------- */
+
+.light .f-shadow-0 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.light .f-shadow-2 {
+  border: 1px solid;
+  /* border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0.06) 90.58%, rgba(0, 0, 0, 0.16) 100%); */
+  border-color: rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.16);
+}
+
+.light .f-shadow-8 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.light .f-shadow-16 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.14);
+}
+
+.light .f-shadow-32 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.14);
+}
+
+.light .f-shadow-128 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.19), 0px 2px 21px rgba(0, 0, 0, 0.15);
+}
+
+.dark .f-shadow-0 {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark .f-shadow-2 {
+  border: 1px solid;
+  /* border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.07) 50%); */
+  border-color: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+.dark .f-shadow-8 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.13);
+}
+
+.dark .f-shadow-16 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.26);
+}
+
+.dark .f-shadow-32 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.14);
+}
+
+.dark .f-shadow-128 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.37), 0px 2px 21px rgba(0, 0, 0, 0.37);
+}
+
+/* ------------------------- Shell Shadows ------------------------- */
+
+.light .f-shell-shadow-64 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.19), 0px 2px 10.67px rgba(0, 0, 0, 0.15);
+}
+
+.light .f-shell-shadow-128 {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.28), 0px 2px 21px rgba(0, 0, 0, 0.22);
+}
+
+.dark .f-shell-shadow-64 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.37), 0px 2px 10.67px rgba(0, 0, 0, 0.37);
+}
+
+.dark .f-shell-shadow-128 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.56), 0px 2px 21px rgba(0, 0, 0, 0.55);
+}
