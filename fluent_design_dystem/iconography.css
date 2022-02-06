@@ -5,17 +5,23 @@
   src: url(./fonts/Segoe\ Fluent\ Icons.ttf) format("truetype");
 }
 
-#icon,
-#WindowsInsider {
+#accordion-icon,
+#toast-icon,
+#icon {
   font-family: "Segoe Fluent Icons";
 }
 
-#icon::before,
-#WindowsInsider::before {
+#accordion-icon::before,
+#toast-icon::before,
+#icon::before {
   content: "\f1ad";
 }
 
-.icon {
+.accordion-icon {
   font-size: 24px;
   margin-right: 1.25rem;
+}
+
+#toast-icon {
+  margin-right: 0.75rem;
 }
