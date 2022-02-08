@@ -9,7 +9,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 var toastElList = [].slice.call(document.querySelectorAll('.toast'))
 var toastList = toastElList.map(function (toastEl) {
-  return new bootstrap.Toast(toastEl, option)
+  return new bootstrap.Toast(toastEl)
 })
 
 const BUTTON = document.getElementById('button');
